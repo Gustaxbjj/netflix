@@ -1,0 +1,68 @@
+.PaiHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.NomeFilme {
+    font-size: 34px;
+    font-weight:400 ;
+    color: white;
+}
+
+.infoFilme{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    height: 200%;
+  
+}
+
+.infos{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+     width: 80vh;
+    height: 50vh;
+    padding: 10px;
+}
+
+.Tempo{
+    font-size: 17px;
+    color: rgba(169, 169, 169, 0.86);
+}
+
+.classificacao{
+    display:flex ;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    
+
+}
+.idade{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.sobre{
+    font-size: 15px;
+    color: white;
+}
+
+.descricao{
+    font-size:15px;
+    color: white;
+}
+
+.genero-elenco-estefilme{
+    color: white;
+}
+
+.nome{
+    font-size: 15px;
+    padding: 10px;
+}

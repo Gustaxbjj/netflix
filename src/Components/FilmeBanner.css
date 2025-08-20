@@ -1,0 +1,8 @@
+.Banner{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}

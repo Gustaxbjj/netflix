@@ -1,0 +1,31 @@
+.PaidetodosFilme {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 70vh; 
+    gap: 6px;
+}
+
+.FilmeBanner {
+    display: flex;
+    border-right: solid 2px black;
+}
+
+.FilmeBanner img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+   
+}
+
+.infos {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100vh;
+    height: 100vh;
+    gap: 10px;
+   
+}
