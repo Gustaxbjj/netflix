@@ -27,8 +27,8 @@ function InfoPrinc() {
                     
                     {/* Agora leva para a página FilmePage */}
                     <Link to="/filme" className="mais">
-                        <CiCircleInfo className="circulo" /> 
-                        <span> Mais informações</span>
+                        <CiCircleInfo className="mis" /> 
+                        <span className="mais"> Mais informações</span>
                     </Link>
                 </div>
 

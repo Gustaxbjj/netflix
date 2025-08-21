@@ -1,0 +1,70 @@
+.comentario-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.comentario1{
+    color: rgba(0, 0, 0, 0.74);
+   
+     background-color: rgba(240, 248, 255, 0.868);
+     border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.comentario2{
+    color: rgba(0, 0, 0, 0.74);
+   
+     background-color: rgba(240, 248, 255, 0.868);
+     border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.comentario3{
+    color: rgba(0, 0, 0, 0.74);
+   
+     background-color: rgba(240, 248, 255, 0.868);
+     border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+}
+.comentario4{
+    color: rgba(0, 0, 0, 0.74);
+   
+     background-color: rgba(240, 248, 255, 0.868);
+     border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+}
+.comentario5{
+    color: rgba(0, 0, 0, 0.74);
+   
+     background-color: rgba(240, 248, 255, 0.868);
+     border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.comentario-header{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.comentario-texto{
+        
+      color: black;
+     
+}

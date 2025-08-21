@@ -3,81 +3,87 @@
     flex-direction: column;
     padding: 25px;
     gap: 20px;
+    max-width: 700px; 
 }
+
 
 .NomeFilme {
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 600;
     color: white;
+    margin-bottom: 10px;
 }
+
 
 .infoFilme {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    gap: 20px;
-    width: 80vh;
+    gap: 15px;
+    width: 100%;
     height: auto; 
-    padding: 15px;
+    padding: 10px 0;
 }
 
+
 .Tempo {
-    font-size: 17px;
-    color: rgba(169, 169, 169, 0.86);
+    font-size: 16px;
+    color: rgba(200, 200, 200, 0.85);
 }
+
 
 .classificacao {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
 }
 
 .idade {
-    width: 30px;
-    height: 30px;
+    min-width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 6px;
+    background: crimson;
     color: white;
 }
+
 
 .sobre {
     font-size: 15px;
     color: white;
+    line-height: 1.4;
 }
 
 .descricao {
     font-size: 15px;
     font-weight: 600;
     color: white;
+    line-height: 1.4;
 }
+
 
 .genero-elenco-estefilme {
     display: flex;
-    flex-direction: row ; 
-    justify-content: flex-start;
-    gap: 1px;
-    width: 260px;
-    color: rgba(0, 0, 0, 0.826);
-    border: solid 2px white;
-    background-color: rgba(245, 245, 245, 0.989);
-    border-radius: 5px;
-    padding: 1;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 10px;
+    min-width: 260px;
+    border: solid 1px white;
+    background-color: rgba(245, 245, 245, 0.95);
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: black;
 }
 
-.elenco {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-}
 
-.nome {
-    font-size: 15px;
-    padding: 5px;
-}
 
 .nomezinho {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-    padding: 1px;
     text-align: center;
+    padding: 2px 0;
 }
