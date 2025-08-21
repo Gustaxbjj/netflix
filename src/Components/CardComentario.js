@@ -50,7 +50,7 @@ function ComentarioCard({ autor, texto, data }) {
              <strong>{'@Gabriel Felipe'}</strong>
          </div>
              <p className="comentario-texto">{'Um filme emocionante que mostra a força da fé diante das maiores adversidades. As atuações são poderosas e a história inspira coragem e esperança. Realmente toca o coração!'}</p>
-             <span className="comentario-data">{"01/08/2025"}</span>
+             <span className="comentario-data">{"01 /08/2025"}</span>
 
     </div>
     
