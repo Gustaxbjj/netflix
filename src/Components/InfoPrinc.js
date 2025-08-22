@@ -25,9 +25,9 @@ function InfoPrinc() {
                         <FaPlay /> <span> Assistir</span>
                     </div>
                     
-                    {/* Agora leva para a página FilmePage */}
-                    <Link to="/filme" className="mais">
-                        <CiCircleInfo className="mis" /> 
+                   
+                    <Link to="/filme" className="maisinfo">
+                        <CiCircleInfo className="ciculo" /> 
                         <span className="mais"> Mais informações</span>
                     </Link>
                 </div>

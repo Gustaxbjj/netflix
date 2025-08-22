@@ -4,7 +4,7 @@ import { TbNumber12Small } from "react-icons/tb";
 function FilmeHeader() {
     return (
         <div className='PaiHeader'>
-            <div className='NomeFilme'>Luta pela Fé - A História do Padre Stu</div>
+            
 
             <div className='infoFilme'>
 
@@ -17,7 +17,16 @@ function FilmeHeader() {
 
                 <div className='descricao'>
                     <div className='texto'>
-                        Este drama de 2022 sobre a jornada de um homem até o sacerdócio se baseia em uma história real.
+                       Luta pela Fé é um drama inspirador que acompanha a jornada de superação de um jovem atleta.
+Ele enfrenta dificuldades familiares, pressões sociais e a dura realidade da vida.
+Em meio a tantas batalhas, encontra na fé a força para seguir em frente.
+Com o apoio de amigos e pessoas próximas, aprende a não desistir dos seus sonhos.
+O esporte se torna não apenas uma competição, mas um caminho de transformação.
+Cada obstáculo representa uma oportunidade de crescimento pessoal.
+A mensagem central é de esperança, perseverança e confiança em Deus.
+O filme mostra que a fé verdadeira pode mudar destinos.
+É uma história emocionante, que toca o coração de quem assiste.
+Ideal para refletir sobre coragem, amor e propósito de vida.
                     </div>
                 </div>
 

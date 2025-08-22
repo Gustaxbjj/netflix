@@ -1,5 +1,6 @@
-import Banner from "../Components/FilmeBanner";
 import "./FilmePage.css";
+import Banner from "../Components/FilmeBanner";
+import Nome from "../Components/FilmeNome"
 import Header from '../Components/FilmeHeader'
 import Elenco from '../Components/FilmeElenco'
 import CardComentario from '../Components/CardComentario'
@@ -14,7 +15,10 @@ function FilmePage() {
                  <Banner/>
             </div>
 
+           
+
             <div className="infos">
+                 <div className="Nome"> <Nome  /> </div>
                 <Header />
 
                 <div className="atores-container">
