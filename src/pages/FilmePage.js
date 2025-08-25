@@ -4,6 +4,8 @@ import Nome from "../Components/FilmeNome"
 import Header from '../Components/FilmeHeader'
 import Elenco from '../Components/FilmeElenco'
 import CardComentario from '../Components/CardComentario'
+import Relacionados from '../Components/FilmesRelacionados'
+
 
 function FilmePage() {
     return (
@@ -32,6 +34,11 @@ function FilmePage() {
                 <CardComentario     />
                 
         </div>
+
+        <div className="relacionados-container">
+                <Relacionados />
+        </div>
+
 </div>
 
     );
