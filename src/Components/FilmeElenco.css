@@ -1,6 +1,6 @@
 .atores {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
     margin-top: 4px;
     padding: 10px;

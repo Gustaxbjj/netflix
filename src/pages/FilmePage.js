@@ -5,13 +5,17 @@ import Header from '../Components/FilmeHeader'
 import Elenco from '../Components/FilmeElenco'
 import CardComentario from '../Components/CardComentario'
 import Relacionados from '../Components/FilmesRelacionados'
+import NavDetalhes  from "../Components/NavBarDetalhes";
 
 
 function FilmePage() {
     return (
  <div className="Filme">
+            <div className="Navbar">
+                <NavDetalhes />
+            </div>
         <div className="PaidetodosFilme">
-           
+        
            
             <div className="FilmeBanner">
                  <Banner/>
@@ -35,9 +39,7 @@ function FilmePage() {
                 
         </div>
 
-        <div className="relacionados-container">
-                <Relacionados />
-        </div>
+        
 
 </div>
 

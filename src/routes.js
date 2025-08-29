@@ -3,6 +3,7 @@ import Profiles from "./pages/Profiles";
 import Home from "./pages/Home";
 import Config from "./pages/Config";
 import FilmePage from "./pages/FilmePage"; 
+import Semelhantes from "./Components/Semelhantes"; // importando o componente
 
 function MainRoutes() {
     return (
@@ -11,6 +12,7 @@ function MainRoutes() {
             <Route path="/home" element={<Home />} />
             <Route path="/config" element={<Config />} />
             <Route path="/filme" element={<FilmePage />} /> 
+            <Route path="/Semelhantes" element={<Semelhantes />} /> {/* rota adicionada */}
         </Routes>
     );
 }

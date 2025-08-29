@@ -1,0 +1,42 @@
+.containers-semelhantes{
+    /*border: solid 2px white;*/
+    padding-left: 40px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.container{
+  border: solid 4px black;
+  background-color: rgba(128, 128, 128, 0.559);
+   border-radius: 10px;
+   width: 450px;
+   height: 450px;
+}
+
+.img-container{
+border-radius: 5px;
+
+
+}
+
+.foto{
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+
+.introducao{
+    padding: 15px;
+    color: white;
+}
+
+.nome{
+    color: rgba(255, 0, 0, 0.555);
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

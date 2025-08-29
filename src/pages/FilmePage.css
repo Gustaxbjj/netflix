@@ -1,3 +1,7 @@
+.Filmel{
+position: fixed;
+}
+
 .PaidetodosFilme {
     display: flex;
     flex-direction: row;
@@ -30,8 +34,7 @@
 
 .atores-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;    
+    flex-direction: row;  
     width: 93%; 
     color: white;
   
@@ -40,8 +43,7 @@
 .atores-container .titulo-elenco {
     font-size: 18px;
     font-weight: 600;
-
-}
+}   
 
 .atores-container .ator {
     font-size: 15px;

@@ -14,6 +14,7 @@ function FilmeRelacionado (){
 
     return(
   <div className='Pai-relacionados'>
+      <div className='text-relacionados'> Relacionados</div>
 
         <div className='filmes-container'>
 

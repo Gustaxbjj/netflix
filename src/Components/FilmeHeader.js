@@ -1,5 +1,7 @@
 import './FilmeHeader.css'
 import { TbNumber12Small } from "react-icons/tb";
+import Semelhantes from '../Components/Semelhantes'
+import {Link } from 'react-router-dom'
 
 function FilmeHeader() {
     return (
@@ -28,11 +30,15 @@ O filme mostra que a fé verdadeira pode mudar destinos.
 É uma história emocionante, que toca o coração de quem assiste.
 Ideal para refletir sobre coragem, amor e propósito de vida.
                     </div>
+
+                <div className='card-menu'>
+    
+                 <span className='cor-visao'>COMENTÁRIOS</span>
+                 <Link className='cor-visao2' to={'/Semelhantes'} > TITULOS SEMELHANTES </Link>
+                 <span>DETALHES</span>
+               </div>
+
                 </div>
-
-             
-              
-
             </div>
         </div>
     )
