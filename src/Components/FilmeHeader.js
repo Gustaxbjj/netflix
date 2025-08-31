@@ -32,10 +32,9 @@ Ideal para refletir sobre coragem, amor e propósito de vida.
                     </div>
 
                 <div className='card-menu'>
-    
                  <span className='cor-visao'>COMENTÁRIOS</span>
-                 <Link className='cor-visao2' to={'/Semelhantes'} > TITULOS SEMELHANTES </Link>
-                 <span>DETALHES</span>
+                 <Link className='cor-visao' to={'/Semelhantes'} > TITULOS SEMELHANTES </Link>
+                 <span className='cor-visao'>DETALHES</span>
                </div>
 
                 </div>
