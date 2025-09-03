@@ -1,0 +1,76 @@
+.comentario-container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 20px;
+}
+
+.comentario {
+  position: relative;
+  overflow: hidden;              /* garante que o overlay respeite o radius */
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+  padding: 14px;                 /* um pouco mais de espaço p/ não “pegar” no texto */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  color: white;
+  background: rgba(240, 248, 255, 0.132);
+}
+
+/* Lado esquerdo */
+.comentario::before,
+.comentario::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 36px;                   /* largura do fade: ajuste aqui */
+  height: 100%;
+  pointer-events: none;          /* não intercepta cliques */
+  border-radius: 20px;           /* segue o radius do card */
+}
+
+.comentario::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.35),         /* opacidade na borda */
+    rgba(0, 0, 0, 0) 60%         /* desaparece rápido para o miolo */
+  );
+}
+
+/* Lado direito */
+.comentario::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0) 60%
+  );
+}
+
+
+.comentario-header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.comentario-texto{
+    color: white;  
+}
+
+.estrelas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.estrela{
+    color: rgba(255, 255, 0, 0.896);
+}

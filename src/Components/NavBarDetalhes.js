@@ -5,6 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { GoTriangleDown } from "react-icons/go";
 import { BsBellFill } from "react-icons/bs";
 import { IoMdSearch } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 function NavDetalhes(){
 
@@ -12,7 +13,9 @@ function NavDetalhes(){
         <div className='Nav-Config2'>
 
         <div className='sup-direita'>
-            <img src={logo} className='logotipo2'/>
+            <Link to='/home'>
+                <img src={logo} className='logotipo2'/>
+            </Link>
             <span className='color-nav'>Navegar</span>
             < GoTriangleDown className='seta-sup'/>
         </div>

@@ -1,9 +1,9 @@
 import './FilmeNome.css'
 
-function FilmeNome(){
+function FilmeNome({filme}){
 
     return(
-        <div className='NomeFilme'>Luta pela Fé - A História do Padre Stu</div>
+        <div className='NomeFilme'>{filme.titulo}</div>
     )
 
 }

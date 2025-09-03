@@ -1,8 +1,7 @@
+import CardFilme from "./CardFilme";
 import "./Catalogo.css";
 
 function Catalogo ({descricao, listadeFilmes}) {
-    
-    const catalogodeFilmes = listadeFilmes.map(movie => <img src={movie} className="fotofilme"/>)
 
     return(
 
@@ -10,9 +9,16 @@ function Catalogo ({descricao, listadeFilmes}) {
 
                 <span>{descricao}</span>
                 
-                <div className="carrosel">{catalogodeFilmes}</div>
-                
+                <div className="carrosel">
+                    {
+                        listadeFilmes.map((filme, idx) => 
+                            <CardFilme key={idx} filme={filme} />
+                        )
+                    }
+                </div> 
 
+                
+                
             </div>
       
     );

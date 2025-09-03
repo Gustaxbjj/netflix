@@ -18,7 +18,8 @@
     gap: 7px;
     width: auto;
     position: relative;
-    overflow-x:scroll, hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     overflow-clip-margin: content-box;
     cursor: grab;

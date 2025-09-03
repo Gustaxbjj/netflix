@@ -11,7 +11,8 @@ function MainRoutes() {
             <Route path="/" element={<Profiles />} />
             <Route path="/home" element={<Home />} />
             <Route path="/config" element={<Config />} />
-            <Route path="/filme" element={<FilmePage />} /> 
+            <Route path="/filme" element={<FilmePage />} />
+            <Route path="/filme/:id" element={<FilmePage />} /> 
             <Route path="/Semelhantes" element={<Semelhantes />} /> {/* rota adicionada */}
         </Routes>
     );

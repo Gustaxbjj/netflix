@@ -1,12 +1,10 @@
 import './FilmeBanner.css'
-import Banner from '../Imagens/Fundopadre.webp'
-import { DiVim } from 'react-icons/di'
 
-function FilmeBanner (){
+function FilmeBanner ({filme}){
 
     return(
         <div className='Banner'>
-
+            <img src={filme.fotoThumbnail} class="BannerImg"/>
         </div>
 
     )
