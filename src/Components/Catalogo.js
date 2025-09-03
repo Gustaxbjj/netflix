@@ -2,9 +2,7 @@ import CardFilme from "./CardFilme";
 import "./Catalogo.css";
 
 function Catalogo ({descricao, listadeFilmes}) {
-
     return(
-
             <div className="minhaLista">
 
                 <span>{descricao}</span>
@@ -15,12 +13,8 @@ function Catalogo ({descricao, listadeFilmes}) {
                             <CardFilme key={idx} filme={filme} />
                         )
                     }
-                </div> 
-
-                
-                
+                </div>     
             </div>
-      
     );
 }
 

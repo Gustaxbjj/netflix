@@ -10,8 +10,7 @@ function FilmeHeader({ filme }) {
                 <div className='Tempo'>Duração: {filme.duracao}</div>
 
                 <div className='classificacao'>
-                    <TbNumber12Small className="idade" />
-                    <span>{filme.faixa_etaria}</span>
+                    <span className="idade">{filme.faixa_etaria}</span>
                 </div>
 
                 <div className='sobre'>Gênero: {filme.genero}</div>

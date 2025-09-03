@@ -7,8 +7,6 @@ import CarroselNum from "../Components/CarroselNum";
 
 import {filmes, filmes2, filmesNum} from '../Services/FilmesMock';
 
-
-
 function Home(){    
     return(
 
