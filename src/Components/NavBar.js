@@ -19,7 +19,6 @@ function NaveBar (){
                 <a className="link">Filmes</a>
                 <a className="link">Bombando</a>
                 <a className="link">Minha lista</a>
-                <a className="link">Navegue por idiomas</a>
             </div>
 
             <div className="conta">
