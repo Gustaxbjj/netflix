@@ -1,4 +1,4 @@
-.containers-semelhantes {
+.containers-catalogo {
     /*border: solid 2px white;*/
     padding: 50px ;
     padding-left: 20px;
@@ -8,9 +8,11 @@
     gap: 100px;
     justify-content: center; 
 
+    margin-top: 50px;
+
 }
 
-.containers-semelhantes2 {
+.containers-catalogo2 {
     /*border: solid 2px white;*/
     padding: 50px ;
     padding-left: 20px;

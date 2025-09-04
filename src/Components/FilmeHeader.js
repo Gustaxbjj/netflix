@@ -1,6 +1,6 @@
 import './FilmeHeader.css'
 import { TbNumber12Small } from "react-icons/tb";
-import Semelhantes from '../Components/Semelhantes'
+import CatalogoPage from '../pages/CatalogoPage';
 import { Link } from 'react-router-dom'
 
 function FilmeHeader({ filme }) {
@@ -24,7 +24,7 @@ function FilmeHeader({ filme }) {
                         <span className='cor-visao'>
                             COMENTÁRIOS
                         </span>
-                        <Link className='cor-visao' to={'/Semelhantes'}> 
+                        <Link className='cor-visao' to={'/catalogo'}> 
                             TITULOS SEMELHANTES 
                         </Link>
                         <span className='cor-visao'>

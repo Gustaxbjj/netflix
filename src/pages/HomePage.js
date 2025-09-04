@@ -13,7 +13,7 @@ function HomePage(){
     const filmeTopo = filmeService.getRandomFilme();
 
     return(
-        <div className="tela">
+        <div className="tela" style={{ backgroundImage: `url(${filmeTopo.fotoThumbnail})` }}>
             
             <div className="casa">
                 <NaveBar />
