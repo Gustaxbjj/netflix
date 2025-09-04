@@ -1,4 +1,4 @@
-import "./InfoPrinc.css";
+import "./FilmeDestaque.css";
 import { FaPlay } from "react-icons/fa";
 import { CiCircleInfo } from "react-icons/ci";
 import { FaVolumeUp } from "react-icons/fa";
@@ -6,7 +6,7 @@ import { TbNumber12Small } from "react-icons/tb";
 import { SiNetflix } from "react-icons/si";
 import { Link } from "react-router-dom"; // importa o Link
 
-function InfoPrinc() {
+function FilmeDestaque({filme}) {
     return (
         <div className="detInical">
             <div className="logoNet">
@@ -15,17 +15,13 @@ function InfoPrinc() {
             </div>
 
             <div className="title">
-                <span className="nomeFilme1"> Luta Pela Fé </span>
-                <span className="nomeFilme2">A História do Padre Stu</span>
+                <span className="nomeFilme1"> {filme.titulo} </span>
+                <span className="nomeFilme2"> {filme.genero} </span>
             </div>
 
             <div className="info">
                 <div className="option">
-                    <div className="assistir">
-                        <FaPlay /> <span> Assistir</span>
-                    </div>
                     
-                   
                     <Link to="/filme" className="maisinfo">
                         <CiCircleInfo className="ciculo" /> 
                         <span className="mais"> Mais informações</span>
@@ -41,4 +37,4 @@ function InfoPrinc() {
     );
 }
 
-export default InfoPrinc;
+export default FilmeDestaque;

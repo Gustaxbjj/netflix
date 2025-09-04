@@ -1,17 +1,17 @@
 import './Semelhantes.css'
-import NavDetalhes from './NavBarDetalhes'
 import cabana from '../Imagens/cabana.jpg'
 import comeSunday from '../Imagens/Come-Sunday.jpg'
 import twoPopes from '../Imagens/TwoPopes.jpg'
 import fight from '../Imagens/fight.jpeg'
 import calvary from '../Imagens/calvary.jpeg'
-import chavory from '../Imagens/chariots].jpeg'
+import chavory from '../Imagens/chariots.jpeg'
+import NaveBar from './NavBar'
 
 function Semelhantes() {
     return (
         <div className='paiSemelhantes'>
             <div className='navbar'>
-                <NavDetalhes />
+                <NaveBar />
             </div>
 
             <div className='containers-semelhantes'>

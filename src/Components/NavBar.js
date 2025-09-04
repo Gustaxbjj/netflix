@@ -9,8 +9,12 @@ function NaveBar (){
 
         <div className="nav-bar">
             <div className="navegue">
-                <img src={logo} class="imagem"></img>
-                <a className="link">Início</a>
+                <Link to="/home">
+                    <img src={logo} class="imagem"></img>
+                </Link>
+                <Link to="/home">
+                    <a className="link">Início</a>
+                </Link>
                 <a className="link">Séries</a>
                 <a className="link">Filmes</a>
                 <a className="link">Bombando</a>

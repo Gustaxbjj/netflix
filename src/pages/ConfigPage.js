@@ -1,9 +1,9 @@
-import './Config.css';
+import './ConfigPage.css';
 import MenuLateral from '../Components/MenuLateral';
 import BarraConfig from '../Components/BarraConfig';
 import Conta from '../Components/Conta'
 
-function Config() {
+function ConfigPage() {
     
     return(
         
@@ -34,4 +34,4 @@ function Config() {
     );
 }
 
-export default Config;
+export default ConfigPage;

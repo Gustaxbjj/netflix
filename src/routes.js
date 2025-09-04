@@ -1,19 +1,21 @@
 import { Routes, Route } from "react-router-dom";
-import Profiles from "./pages/Profiles";
-import Home from "./pages/Home";
-import Config from "./pages/Config";
+import ProfilesPage from "./pages/ProfilesPage";
+import ConfigPage from "./pages/ConfigPage";
 import FilmePage from "./pages/FilmePage"; 
 import Semelhantes from "./Components/Semelhantes"; // importando o componente
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
 
 function MainRoutes() {
     return (
         <Routes> 
-            <Route path="/" element={<Profiles />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/config" element={<Config />} />
+            <Route path="/" element={<ProfilesPage />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/config" element={<ConfigPage />} />
             <Route path="/filme" element={<FilmePage />} />
             <Route path="/filme/:id" element={<FilmePage />} /> 
             <Route path="/Semelhantes" element={<Semelhantes />} /> {/* rota adicionada */}
+            <Route path="/login" element={<LoginPage />} />
         </Routes>
     );
 }

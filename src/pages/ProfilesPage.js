@@ -1,4 +1,4 @@
-import "./Profiles.css";
+import "./ProfilesPage.css";
 
 import eleven from '../Imagens/eleven.jpeg';
 import lacasa from '../Imagens/lacasa.jpeg';
@@ -6,7 +6,7 @@ import kids from '../Imagens/kids.png';
 import adiconar from '../Imagens/+.png';
 import SelecaoPerfil from "../Components/SelecaoPerfil";
 
-function Profile () {
+function ProfilePage () {
   
   const usuario1 = {
     nome: 'Guilherme',
@@ -39,4 +39,4 @@ function Profile () {
 
    
 
-export default Profile;
+export default ProfilePage;
